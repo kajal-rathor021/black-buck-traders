@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Buck Traders</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+<div id="loader">
+    <div class="loader-content">
+        <h1>BLACK BUCK</h1>
+        <p>TRADERS</p>
+
+        <div class="loader-line"></div>
+    </div>
+</div>
+    <header class="main-header">
+        <div class="logo">
+            <span>
+                <img src="image/logo..jpg" alt="Black Buck Logo"
+                class="header-img">
+                <br>
+                BLACK BUCK
+            </span>
+        
+        </div>
+        <p>Quality Products.Trusted Distributor and Reliable Wholesale Partner.</p>
+     </header>
+
+     <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+     </nav>
+
+     <section id="home" class="hero">
+        <h2>Welcome to Black Buck Traders</h2>
+        <p>Your Trusted Wholesale Trading Partner</p>
+
+        <a href="#contact" class="contact-btn">Contact Us</a>
+     </section>
+
+    
+     <section id="products" class="products">
+        <h2>Our Products</h2>
+        <section>
+        <p>Explore our range of wholesale products.</p>
+        </section>
+       
+        <div id="product-container" class="product-container">
+
+            <div class="product-card">
+                <img src="image/rusk.jpg" alt="Rusk">
+                <h3>Rusk</h3>
+                <p>Fresh and quality rusk products.</p>
+                <a
+                 href="https://wa.me/917055571280"
+                target="_blank"
+                class="whatsapp-btn">
+                Enquire Now
+            </a>
+            
+            </div>
+
+        <div  id="product-container" class="product-container">
+
+            <div class="product-card">
+                <img src="image/biscuit.jpg" alt="Biscuits">
+                <h3>Biscuits</h3>
+                <p>Different varieties of Biscuits.</p>
+                 <a
+                href="https://wa.me/917055571280"
+                target="_blank"
+                class="whatsapp-btn">
+                Enquire Now
+            </a>
+            </div>
+
+         <div  id="product-container" class="product-container">
+
+            <div class="product-card">
+                <img src="image/chips.jpg" alt="Chips">
+                <h3>Chips</h3>
+                <p>Popular chips and snack products.</p>
+                 <a
+                href="https://wa.me/917055571280"
+                target="_blank"
+                class="whatsapp-btn">
+                Enquire Now
+            </a>
+            </div>    
+
+        <div  id="product-container" class="product-container">
+
+            <div class="product-card">
+                <img src="image/Kurkure.jpg" alt="Kurkure">
+                <h3>Kurkure</h3>
+                <p>Popular namkeen and snack products.</p>
+                 <a
+                href="https://wa.me/917055571280"
+                target="_blank"
+                class="whatsapp-btn">
+                Enquire Now
+            </a>
+            </div>     
+
+        <div  id="product-container" class="product-container">
+
+            <div class="product-card">
+                <img src="image/Chocolate.jpg" alt="Chocolate">
+                <h3>Chocolate</h3>
+                <p>A variety of Chocolate products.</p>
+                 <a
+                href="https://wa.me/917055571280"
+                target="_blank"
+                class="whatsapp-btn">
+                Enquire Now
+            </a>
+            </div>    
+            
+        </div>
+     </section>
+
+     <section id="about" class="About">
+        <h2> Black Buck Traders</h2>
+        <p>
+            Black Buck Traders is a wholesale trading business providing quality snacks, and confectionery products. We aim to provide reliable products and services to our customers.
+        </p>
+        
+        <p>
+            Black Buck Traders is a wholesale trading business comitted to providing quality products and reliable services.
+        </p>
+        <p>
+            Our aim is to provide quality products at reasonable prices with reliable services and customer satisfaction.
+        </p>
+        <div class="about-boxes">
+            <div>
+                <h3>Quality Products</h3>
+                <p>We focus on providing quality products.</p>
+            </div>
+
+            <div> 
+                <h3>Wholesale Supply</h3>
+                <p>Wholesaleproducts for retailers and businesses.</p>
+            </div>
+
+            <div>
+                <h3>Reliable Services</h3>
+                <p>Quick and dependable support.</p>
+            </div>
+        </div>
+
+     </section>
+
+     <section id="contact" class="contact">
+
+     </section>
+         
+     <footer>
+        <h3>BLACK BUCK TRADERS</h3>
+
+        <P>Quality Products. Reliable Wholesale Partner.</P>
+         <p>For wholesale enquries, contact us:</p>
+         
+
+        <a href="https://wa.me/917055571280" 
+        target="_blank" 
+        class="contact-btn">
+           Whatsapp Us
+        </a>
+
+        <p>GSTIN: 05ICWPP7949K1ZB</p>
+        <P>Udyam Registration No.: UDYAM-UK-05-00118876</P>
+
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <p class="copyright">
+         &copy; 2026 Black Buck Traders. All Rights Reserved.
+        </p>
+
+        <div class="Legal-links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="terms.html">Terms & Cconditions</a>
+        </div>
+     </footer>
+
+     <!-- Back to Top Button -->
+<button id="backToTop" onclick="scrollToTop()">↑</button>
+
+<script>
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+
+    window.addEventListener("scroll", function () {
+        const button = document.getElementById("backToTop");
+
+        if (window.scrollY > 300) {
+            button.style.display = "block";
+        } else {
+            button.style.display = "none";
+        }
+    });
+</script>
+
+</body>
+</html>
